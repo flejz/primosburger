@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://primosburger.com.br/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://primosburger.com.br/empresa.php</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://primosburger.com.br/cardapio.php</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://primosburger.com.br/delivery.php</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://primosburger.com.br/contato.php</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://primosburger.com.br/form.php</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://primosburger.com.br/index.php</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://primosburger.com.br/cardapio_sjc.php</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://primosburger.com.br/cardapio_itapeva.php</loc>
+  <changefreq>monthly</changefreq>
+</url>
+</urlset>

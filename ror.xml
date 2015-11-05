@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://primosburger.com.br/</title>
+  <link>http://primosburger.com.br/</link>
+
+<item>
+     <link>http://primosburger.com.br/</link>
+     <title>Primos Burguer ::</title>
+     <description>Primos Burguer ::</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://primosburger.com.br/empresa.php</link>
+     <title>Primos Burguer ::</title>
+     <description>Primos Burguer ::</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://primosburger.com.br/cardapio.php</link>
+     <title>Primos Burguer ::</title>
+     <description>Primos Burguer ::</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://primosburger.com.br/delivery.php</link>
+     <title>Primos Burguer ::</title>
+     <description>Primos Burguer ::</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://primosburger.com.br/contato.php</link>
+     <title>Primos Burguer ::</title>
+     <description>Primos Burguer ::</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://primosburger.com.br/form.php</link>
+     <title>Primos Burguer ::</title>
+     <description>Primos Burguer ::</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://primosburger.com.br/index.php</link>
+     <title>Primos Burguer ::</title>
+     <description>Primos Burguer ::</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://primosburger.com.br/cardapio_sjc.php</link>
+     <title>Primos Burguer ::</title>
+     <description>Primos Burguer ::</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://primosburger.com.br/cardapio_itapeva.php</link>
+     <title>Primos Burguer ::</title>
+     <description>Primos Burguer ::</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

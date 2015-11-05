@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("font-face.css");
+
+html {width: 100%;}
+
+body {	
+	font-family:arista-regular;	
+	font-size:18px;
+	height:100%;
+}
+
+#body_index {
+	margin:0;
+	background:#89705e;
+}
+
+#body_empresa {
+	margin:0;
+}
+
+h1 {font-size:42px;	color:#e95345;}
+h2 {font-size:30px;	color:#e95345;}
+
+/* TOPO */
+
+#topo {
+	width:930px;
+	height:100px;
+	margin:0 auto;
+	z-index:999;
+}
+
+#topo img {position:absolute; z-index:10;}
+
+#menu {
+	position:absolute;
+	margin-left:490px;
+	font-family:arista-regular;
+	color:#FFF;
+	z-index:10;
+}
+
+#menu_laranja {
+	position:absolute;
+	margin-left:490px;
+	font-family:arista-regular;
+	color:#e95345;
+	z-index:10;
+}
+
+#menu li {width:100px; list-style:none; float:left; text-align:right;}
+#menu_laranja li {width:100px; list-style:none; float:left; text-align:right;}
+
+	a.link_menu:link {color:#FFF; text-decoration:none;}
+	a.link_menu:hover {color:#FFF; text-decoration:none;}				
+	a.link_menu:active {color:#FFF; text-decoration:none;}
+	a.link_menu:visited {color:#FFF; text-decoration:none;}
+
+	a.link_menu_laranja:link {color:#e95345; text-decoration:none;}
+	a.link_menu_laranja:hover {color:#e95345; text-decoration:none;}				
+	a.link_menu_laranja:active {color:#e95345; text-decoration:none;}
+	a.link_menu_laranja:visited {color:#e95345; text-decoration:none;}	
+
+
+/* CENTRO */
+#cont {
+	width:930px;
+	margin:0 auto; 
+}
+
+/* BANNER */
+
+#banner {
+	margin-top:-100px;
+	height: 100%;
+	width:100%;
+	position: absolute;
+	z-index: -11
+}
+
+#banner_item {
+	 width: 100%;
+	 height: 100%;
+	 top: 0;
+	 left: 0; 
+	 position: absolute;
+	 text-align: center;
+	 z-index: -10;
+}
+
+.anterior {position:absolute; margin: 250px 0 0 50px;}
+.proximo {position:absolute; margin: 250px 0 0 850px;}
+
+/* HOME */
+
+#cont_home {
+
+}
+
+#itens_home {
+	width:370px;
+	height:135px;
+	margin-bottom:20px;
+	margin-top:20px;
+	float:left;
+	background:#333;
+}
+
+/* EMPRESA */
+
+#texto_empresa {
+	width: 710px;
+	height: 150px;
+	position: absolute;
+	margin: -142px 0 0 220px;
+	font-size: 13px;
+	letter-spacing: -0.1em;	
+	text-align: justify;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+#parceiros {
+	width: 250px;
+	position: absolute;
+	margin: -548px 0 0 700px;
+}
+
+#parceiros li {
+	width:82px;
+	height:82px;
+	float:left;
+	background:#e95345;
+	list-style:none;
+	margin-bottom:25px;
+}
+
+	.esquerda {margin-right:25px; margin-left:-15px;}
+	.direita {margin-left:15px;}
+
+/* CARDAPIO */
+
+#cardapio {
+	position:absolute;
+	top:0;
+	width:100%;
+	height:3000px;
+	z-index:-10;
+}
+
+.banner_cardapio_sjc {background:url(../images/banner_cardapio/banner_sjc.jpg) no-repeat top center #c0a58a;}
+.banner_cardapio_itapeva {background:url(../images/banner_cardapio/banner_itapeva.jpg) no-repeat top center #c0a58a;}
+
+#peca_o_seu {float: left; margin-left:111px; }
+
+	.cardapio {margin-left:160px; padding:25px 0 25px 30px;}
+	#combinados {background:url(../images/bg_combinados.jpg) no-repeat #E75144; height:575px; z-index:999; margin-top:335px; color:#FFF;}
+	
+	#combinado1 {float:left; width:230px; margin-right:25px;}
+		.descricao_comb1 {margin-top:-100px; margin-left:70px;}
+			.n1 {font-size:140px; margin-top:-35px;}
+			.nome_1 {font-size:24px;}
+			.descricao_1 {font-family:arista-light; font-size:24px;}
+			.preco1 {font-size:50px;}
+		
+	#combinado2 {float:left; width:165px; margin-right:20px; margin-top:120px;}
+		.descricao_comb2 {margin-top:-80px; margin-left:60px;}
+			.n2 {font-size:100px; margin-top:-120px;}
+			.nome_2 {font-size:16px;}
+			.descricao_2 {font-family:arista-light; font-size:16px;}
+			.preco2 {font-size:30px;}
+			
+	#combinado_fritas {width:165px; position:absolute; margin-top:480px;}	
+		.descricao_fritas {margin:-60px 0 0 75px; position:absolute; width:200px;}		
+	
+		#lanches_sjc {background:url(../images/bg_lanches.jpg) no-repeat #009F95; height:905px; z-index:999; color:#FFF; color:#FFF;}
+		#lanches1_sjc {width:350px; float:left; margin:-20px 10px 50px 0; padding:0 5px 0 0; height:110px;}
+			.descricao_lanches_sjc {margin-top:-40px; margin-left:40px;}
+				.n3_sjc {font-size:45px; margin-top:-25px;}
+				.descricao_lanche_sjc {font-family:arista-light; font-size:14px; line-height:20px; width: 215px;}
+				.preco_lanche_sjc {font-size:30px; margin:-50px 0 0 230px;}
+		
+		#lanches_ita {background:url(../images/bg_lanches.jpg) no-repeat #009F95; height:745px; z-index:999; color:#FFF; color:#FFF;}			
+		#lanches1_ita {width:350px; float:left; margin:-20px 10px 50px 0; padding:0 5px 0 0; height:80px;}
+			.descricao_lanches_ita {margin-top:-40px; margin-left:40px;}
+				.n3_ita {font-size:45px; margin-top:-25px;}
+				.descricao_lanche_ita {font-family:arista-light; font-size:14px; line-height:20px;}
+				.preco_lanche_ita {font-size:30px; margin:0px 0 0 230px;}			
+		
+	#adicional_extra {background:url(../images/bg_adicional_extra.jpg) no-repeat; height:235px; color:#E4342D;}
+		
+		#extras1 {margin-top:35px; float:left; width:280px;}
+		#preco_extras1 {float:left; margin-top:35px;}
+	
+		#extras2 {margin-top:35px; float:left; width:280px; margin-left:25px;}
+		#preco_extras2 {float:left; margin-top:35px;}	
+		
+	#refrigerantes {background:#BD0926; height:365px; color:#FFF;}
+	
+		#marcas {width:770px; height:110px; background:#d63557; margin-left:-30px; text-align:center; margin-top:210px;}
+		#opcoes {position:absolute; margin-top:55px;}
+		.itens {float:left; width:120px;}
+	
+	#acai1 {background:#FFF; height:365px;}
+	#acai2 {background:#622180; height:335px; color:#FFF;}
+		#acai2_1 {width:350px; float:left; margin-right:10px;}
+		#acai2_2 {width:350px; float:left;}	
+			.descricao_acai1 {margin-top:80px;}
+		
+			.nome_acrescimos_acai {margin-top:35px; font-size:22px; line-height:26px; width:275px; float:left;}	
+			.precos_acrescimos_acai {margin-top:35px; float:left; font-size:24px; line-height:24px;}				
+
+		.titulos {font-size:35px;}
+
+	
+
+/* DELIVERY */
+
+#texto_delivery {
+	position: absolute;
+	margin-left: 480px;
+	margin-top: -410px;
+	width: 450px;
+	color:#E75144;
+	font-size:24px;
+}
+
+#loja {
+	margin-top:30px;
+}
+
+#horario {
+	margin-top:55px;
+}
+
+#info_delivery {
+
+	color:#E75144;
+	font-size:14px;
+}
+
+/* CONTATO */
+
+#contato {
+	height:340px;
+}
+
+#mapa_contato {
+	margin-top:0px;
+}
+
+#dados_contato {
+	width:450px;
+	float:left;
+	color:#E75144;
+}
+
+#form {
+	margin-top:35px;
+	width:450px;
+	margin-left:30px;
+	float:left;
+}
+
+	#input {width:435px; padding:5px; margin:5px 0 5px 0; font-family:arista-regular; color:#000;}
+	#mensagem {width:437px; height:125px; margin:5px 0 5px 0; padding:5px; font-family:arista-regular; color:#000;}	
+	#botao {width:120px; font-family:arista-regular; text-align:left; background:#E75144; color:#FFF; border:0; height:30px; margin-top:2px}
+	#mensagem:focus, #input:focus, #botao:focus {outline:none;}
+
+/* RODAPE */
+
+#rodape {
+	width:100%;
+	background:#e85245;
+	height:150px;
+	padding-top:10px;
+	margin-top:35px;
+	z-index:9999;
+}
+
+
+
+#menu_rodape {color:#FFF; margin-left:80px; position:absolute; margin-top:-30px;}
+#menu_rodape li {list-style:none; text-align:left;}
+
+#form_rodape {position:absolute; margin-left:490px; width:440px; margin-top:-29px; color:#FFF;}
+	#input_rodape {width:338px; padding:5px; font-family:arista-regular; color:#000;}
+	#botao_rodape {width:120px; font-family:arista-regular; background:#00a096; color:#FFF; border:0; height:30px; margin-left:230px; margin-top:2px}
+	
+	#midias {position:absolute; margin-left:310px;}
+	#midias li {float:left; margin-left:10px; list-style: none;}
+	#midias img {height:18px; width: auto;}
