@@ -174,10 +174,10 @@ h2 {font-size:30px;	color:#e95345;}
 	#combinado_fritas {width:165px; position:absolute; margin-top:480px;}	
 		.descricao_fritas {margin:-60px 0 0 75px; position:absolute; width:200px;}		
 	
-		#lanches_sjc {background:url(../images/bg_lanches.jpg) no-repeat #009F95; height:905px; z-index:999; color:#FFF; color:#FFF;}
-		#lanches1_sjc {width:350px; float:left; margin:-20px 10px 50px 0; padding:0 5px 0 0; height:110px;}
+		#lanches_sjc {background:url(../images/bg_lanches.jpg) no-repeat #009F95; height:2715px; z-index:999; color:#FFF; color:#FFF;}
+		#lanches1_sjc {width:350px; float:left; margin:68px 10px 50px 0; padding:0 5px 0 0; height:110px;}
 			.descricao_lanches_sjc {margin-top:-40px; margin-left:40px;}
-				.n3_sjc {font-size:45px; margin-top:-25px;}
+				.n3_sjc {font-size:38px; margin-top:-25px;}
 				.descricao_lanche_sjc {font-family:arista-light; font-size:14px; line-height:20px; width: 215px;}
 				.preco_lanche_sjc {font-size:30px; margin:-50px 0 0 230px;}
 		
@@ -200,9 +200,25 @@ h2 {font-size:30px;	color:#e95345;}
 	
 		#marcas {width:770px; height:110px; background:#d63557; margin-left:-30px; text-align:center; margin-top:210px;}
 		#opcoes {position:absolute; margin-top:55px;}
+		.opcoes {position:absolute; margin-top:55px;}
 		.itens {float:left; width:120px;}
+
+
+	#cerveja {background:#015E32; height:255px; color:#FFFFFB;}
+
+	.descricao_cerveja1 {margin-left: 100px;}
+	.descricao_cerveja1 img{height: 200px;}
 	
-	#acai1 {background:#FFF; height:365px;}
+	#porcoes {background:#CFD8DC; height:205px; color:#AA00FF;}
+
+	#porcoes .extras1 {margin-top:35px; float:left; width:280px;}
+	#porcoes .preco_extras1 {float:left; margin-top:35px;}
+	
+	#porcoes .extras2 {margin-top:35px; float:left; width:280px; margin-left:25px;}
+	#porcoes .preco_extras2 {float:left; margin-top:35px;}	
+
+
+
 	#acai2 {background:#622180; height:335px; color:#FFF;}
 		#acai2_1 {width:350px; float:left; margin-right:10px;}
 		#acai2_2 {width:350px; float:left;}	

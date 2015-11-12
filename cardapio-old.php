@@ -23,45 +23,57 @@
 
     <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
 	<link rel="shortcut icon" href="favicon.ico" />
+
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+    <script type="text/javascript">
+		$(function() {
+			var offset = $("#peca_o_seu").offset();
+			var topPadding = 132;
+			$(window).scroll(function() {
+				if ($(window).scrollTop() > offset.top) {
+					$("#peca_o_seu").stop().animate({
+						marginTop: $(window).scrollTop() - offset.top + topPadding
+					});
+				} else {
+					$("#peca_o_seu").stop().animate({
+						marginTop: 0
+					});
+				};
+			});
+		});
+	</script>
     
+
 
 <title>Primos Burguer ::</title>
 </head>
 
 <body id="body_empresa">
 
-<div id="topo">
-	<a href="http://www.primosburger.com.br"><img src="images/logo.jpg" alt="Logo Primo's Burger" title="Logo Primo's Burger" /></a>
-    <ul id="menu_laranja">
-    	<li><a href="empresa.php" class="link_menu_laranja">Empresa</a></li>
-        <li><a href="cardapio.php" class="link_menu_laranja">Cardápio</a></li>
-        <li><a href="delivery.php" class="link_menu_laranja">Delivery</a></li>
-        <li><a href="contato.php" class="link_menu_laranja">Contato</a></li>
-    </ul>    	
-</div>
+    <div id="topo">
+        <a href="http://www.primosburger.com.br"><img src="images/logo.jpg" alt="Logo Primo's Burger" title="Logo Primo's Burger" /></a>
+        <ul id="menu_laranja">
+            <li><a href="empresa.php" class="link_menu_laranja">Empresa</a></li>
+            <li><a href="cardapio.php" class="link_menu_laranja">Cardápio</a></li>
+            <li><a href="delivery.php" class="link_menu_laranja">Delivery</a></li>
+            <li><a href="contato.php" class="link_menu_laranja">Contato</a></li>
+        </ul>    	
+    </div>
 
-<div id="cont">
-	<div style="margin-top:50px;">
-	<img src="images/delivery.jpg" />
-    <div id="info_delivery">*Consulte a taxa de entrega<br />
-Aceitamos cartões Visa e Master - Crédito e Débito</div>
-    <div id="texto_delivery">
-    	<img src="images/primo_delivery.jpg" />
-        <div id="loja">
-        (12) 3341-9001<br />
-		São José dos Campos - SP<br />
-		</div>
-        <div style="font-size:18px; margin-top:15px">
-        Funcionamento<br />
-		pm: 17:00 am: 00:00
+
+    <div id="cont">
+        <div style="width:100%; height: 300px; padding-top: 100px; text-align: center">
+            <h2>Selecione o Primo's mais próximo de você</h2><br />
+            <div style="width: 100%; text-align: center">
+	            <div style="float: left; margin-left: 330px;">
+		            <a href="cardapio_sjc.php" class="link_menu_laranja"><img src="images/icone-locais.png" /><br><span style="font-size: 20px;">S.J.Campos-SP</span></a>
+	            </div>
+	            <div style="float: left; margin-left: 80px;">
+					<a href="cardapio_itapeva.php" class="link_menu_laranja"><img src="images/icone-locais.png" /><br><span style="font-size: 20px;">Itapeva-SP</span></a>
+				</div>
+			</div>
         </div>
-        <div style="font-size:18px; margin-top:15px">
-        Horário de entrega<br />
-		pm: 18:00 am: 23:30
-        </div>        
     </div>
-    </div>
-</div>
 
 <div style="clear:both;"&nbsp;</div>
 
@@ -80,9 +92,9 @@ Aceitamos cartões Visa e Master - Crédito e Débito</div>
         	<iframe src="form.php" width="440px" height="100px" frameborder="0"></iframe>
             </div>
             <ul id="midias">
-	        <li><a href="https://www.facebook.com/pages/Primos-Burger/337847863016288" target="_blank"><img src="images/icone_face.png" border="0" /></a></li>
-	        <li><a href="https://twitter.com/primosburger" target="_blank"><img src="images/icone_twitter.png" border="0" /></a></li>
-	        <li><a href="http://instagram.com/primosburger" target="_blank"><img src="images/icone_instagram.png" border="0" /></a></li>
+		        <li><a href="https://www.facebook.com/pages/Primos-Burger/337847863016288" target="_blank"><img src="images/icone_face.png" border="0" /></a></li>
+		        <li><a href="https://twitter.com/primosburger" target="_blank"><img src="images/icone_twitter.png" border="0" /></a></li>
+		        <li><a href="http://instagram.com/primosburger" target="_blank"><img src="images/icone_instagram.png" border="0" /></a></li>
             </ul>
         </div>
     </div>
